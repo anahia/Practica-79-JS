@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<!--esta es mi practica 79-->
+
+<head>
+    <title>Practica 79</title>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <script>
+        var word;
+        var pa;
+        word = prompt('Enter word:', '');
+        pa = /[aeiouAEIOUáéíóú]$/;
+        if (pa.test(word))
+            alert('The word is finished with vocal.');
+        else
+            alert('The word is not finished with vocal.');
+    </script>
+
+</body>
+
+</html>
